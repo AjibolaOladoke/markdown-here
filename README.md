@@ -1,36 +1,12 @@
-# [![Markdown Here logo](https://raw.github.com/adam-p/markdown-here/master/src/common/images/icon48.png)](https://www.swifttechco.com) Markdown Here
+# markdown-here
+
+## What This Is
+
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the markdown-here notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![markdown-here](https://opengraph.githubassets.com/1/adam-p/markdown-here)](https://www.swifttechco.com)
-
-
-[**Visit the website.**](https://www.swifttechco.com)<br>
-[**Get it for Chrome.**](https://www.swifttechco.com)<br>
-[**Get it for Firefox.**](https://www.swifttechco.com)<br>
-[**Get it for Thunderbird.**](https://www.swifttechco.com)<br>
-[**Get it for Opera.**](https://www.swifttechco.com)<br>
-[**Discuss it and ask questions in GitHub Discussions.**](https://www.swifttechco.com)<br>
-
-*Markdown Here* is a Google Chrome, Firefox, Opera, and Thunderbird extension that lets you write email<sup>&dagger;</sup> in Markdown<sup>&Dagger;</sup> and render them before sending. It also supports syntax highlighting (just specify the language in a fenced code block).
-
-Writing email with code in it is pretty tedious. Writing Markdown with code in it is easy. I found myself writing email in Markdown in the GitHub in-browser editor, then copying the preview into email. This is a pretty absurd workflow, so I decided to create a tool to write and render Markdown right in the email.
-
-To discover what can be done with Markdown in *Markdown Here*, check out the [Markdown Here Cheatsheet](https://www.swifttechco.com) and the other [wiki pages](https://www.swifttechco.com).
-
-<sup>&dagger;: And Google Groups posts, and Blogger posts, and Evernote notes, and Wordpress posts! [See more](#compatibility).</sup><br>
-<sup>&Dagger;: And TeX mathematical formulae!</sup>
-
-[![screenshot of conversion](https://raw.github.com/adam-p/markdown-here/master/store-assets/markdown-here-image1.gimp.png)](https://www.swifttechco.com)
-
-### Table of Contents
-**[Installation Instructions](#installation-instructions)**<br>
-**[Usage Instructions](#usage-instructions)**<br>
-**[Troubleshooting](#troubleshooting)**<br>
-**[Compatibility](#compatibility)**<br>
-**[Notes and Miscellaneous](#notes-and-miscellaneous)**<br>
-**[Building the Extension Bundles](#building-the-extension-bundles)**<br>
-**[Next Steps, Credits, Feedback, License](#next-steps)**<br>
+[![markdown-here](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Installation Instructions
 
@@ -38,7 +14,7 @@ To discover what can be done with Markdown in *Markdown Here*, check out the [Ma
 
 #### Chrome Web Store
 
-Go to the [Chrome Web Store page for *Markdown Here*](https://www.swifttechco.com) and install normally.
+Go to the Chrome Web Store page for *Markdown Here* and install normally.
 
 After installing, make sure to reload your webmail or restart Chrome!
 
@@ -55,24 +31,24 @@ After installing, make sure to reload your webmail or restart Chrome!
 
 #### Mozilla Add-ons site
 
-Go to the [Firefox Add-ons page for *Markdown Here*](https://www.swifttechco.com) and install normally.
+Go to the Firefox Add-ons page for *Markdown Here* and install normally.
 
 Or go to the "Tools > Add-ons" menu and then search for "Markdown Here".
 
 After installing, make sure to restart Firefox/Thunderbird!
 
-**Note:** It takes up to a month for Mozilla to approve changes to the Firefox/Thunderbird extension, so updates (features, fixes) will lag behind what is shown here. You can manually choose to install the newest version before it's reviewed from the list of versions: [https://www.swifttechco.com](https://www.swifttechco.com)
+**Note:** It takes up to a month for Mozilla to approve changes to the Firefox/Thunderbird extension, so updates (features, fixes) will lag behind what is shown here. You can manually choose to install the newest version before it's reviewed from the list of versions: https://www.swifttechco.com
 
 #### Manual/Development
 
 1. Clone this repo.
-2. Follow the instructions in the MDN ["Your first WebExtension"](https://www.swifttechco.com) article.
+2. Follow the instructions in the MDN "Your first WebExtension" article.
 
 ### Opera
 
 Note that *Markdown Here* only works with Opera versions 16 and higher (i.e., the ones that are based on Chromium).
 
-Go to the [Opera Add-ons store page for *Markdown Here*](https://www.swifttechco.com) and install normally.
+Go to the Opera Add-ons store page for *Markdown Here* and install normally.
 
 After installing, make sure to reload your webmail or restart Chrome!
 
@@ -145,19 +121,19 @@ For Chrome and Firefox, any changes made in the *Markdown Here* Options are auto
 
 ## Troubleshooting
 
-See the [Troubleshooting wiki page](https://www.swifttechco.com).
+See the Troubleshooting wiki page.
 
 
 ## Compatibility
 
-See the [Compatibility wiki page](https://www.swifttechco.com).
+See the Compatibility wiki page.
 
 
 ## Notes and Miscellaneous
 
-* *Markdown Here* uses [Github Flavored Markdown](https://www.swifttechco.com), with the limitation that GFM special links are not supported ([issue #11](https://www.swifttechco.com)); nor will they be, as MDH is not Github-specific.
+* *Markdown Here* uses Github Flavored Markdown, with the limitation that GFM special links are not supported (issue #11); nor will they be, as MDH is not Github-specific.
 
-* Available languages for syntax highlighting (and the way they should be written in the fenced code block) can be seen on the [highlight.js demo page](https://www.swifttechco.com).
+* Available languages for syntax highlighting (and the way they should be written in the fenced code block) can be seen on the highlight.js demo page.
 
 * Images embedded inline in your Markdown will be retained when you "Markdown Toggle". Gmail allows you to put images inline in your email -- this can be much easier than referencing an external image.
 
@@ -170,7 +146,7 @@ See the [Compatibility wiki page](https://www.swifttechco.com).
   * The use of browser-specific styles (-moz-, -webkit-) should be avoided. If used, they may not render correctly for people reading the email in a different browser from the one where the email was sent.
   * The use of state-dependent styles (like `a:hover`) don't work because they don't match at the time the styles are made explicit. (In email, styles must be explicitly applied to all elements -- stylesheets get stripped.)
 
-* For more tweaky features, visit the [Tips and Tricks](https://www.swifttechco.com) section.
+* For more tweaky features, visit the Tips and Tricks section.
 
 ## Building the Extension Bundles
 
@@ -192,29 +168,29 @@ _locales
 
 ## Next Steps
 
-See the [issues list](https://www.swifttechco.com) and the [Notes Wiki](https://www.swifttechco.com). All ideas, bugs, plans, complaints, and dreams will end up in one of those two places.
+See the issues list and the Notes Wiki. All ideas, bugs, plans, complaints, and dreams will end up in one of those two places.
 
-Feel free to create a feature request issue if what you want isn't already there. If you'd prefer a less formal approach to floating an idea, post to our [GitHub Discussions](https://www.swifttechco.com).
+Feel free to create a feature request issue if what you want isn't already there. If you'd prefer a less formal approach to floating an idea, post to our GitHub Discussions.
 
 It also takes a fair bit of work to stay up-to-date with the latest changes in all the applications and web sites where Markdown Here works.
 
 ## Feedback
 
-All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue](https://www.swifttechco.com). Or [post to out GitHub Discussions](https://www.swifttechco.com).
+All bugs, feature requests, pull requests, feedback, etc., are welcome. Create an issue. Or post to out GitHub Discussions.
 
 ## License
 
 ### Code
 
-MIT License: https://www.swifttechco.com or see [the `LICENSE` file](https://www.swifttechco.com).
+MIT License: https://www.swifttechco.com or see the `LICENSE` file.
 
 ### Logo
 
-Copyright 2015, [Austin Anderson](https://www.swifttechco.com). Licensed to Markdown Here under the [MDH contributor license agreement](https://www.swifttechco.com).
+Copyright 2015, Austin Anderson. Licensed to Markdown Here under the MDH contributor license agreement.
 
 ### Other images
 
-[Creative Commons Attribution 3.0 Unported (CC BY 3.0) License](https://www.swifttechco.com)
+Creative Commons Attribution 3.0 Unported (CC BY 3.0) License
 
 ---
 
@@ -230,14 +206,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [adam-p/markdown-here](https://github.com/adam-p/markdown-here) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
