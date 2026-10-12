@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![markdown-here](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![markdown-here](images/preview.png)](https://github.com/Swift-Tech-Co/markdown-here)
 
 ## Installation Instructions
 
@@ -37,7 +37,7 @@ Or go to the "Tools > Add-ons" menu and then search for "Markdown Here".
 
 After installing, make sure to restart Firefox/Thunderbird!
 
-**Note:** It takes up to a month for Mozilla to approve changes to the Firefox/Thunderbird extension, so updates (features, fixes) will lag behind what is shown here. You can manually choose to install the newest version before it's reviewed from the list of versions: https://www.swifttechco.com
+**Note:** It takes up to a month for Mozilla to approve changes to the Firefox/Thunderbird extension, so updates (features, fixes) will lag behind what is shown here. You can manually choose to install the newest version before it's reviewed from the list of versions: https://github.com/Swift-Tech-Co/markdown-here
 
 #### Manual/Development
 
@@ -95,7 +95,7 @@ Sometimes you don't want to convert the entire email; sometimes your email isn't
 
 To revert back to Markdown, just put your cursor anywhere in the block of converted text, right-click, and click the "Markdown Toggle" menu item again. Now it's magically back to the original Markdown.
 
-[![screenshot of selection conversion](https://raw.github.com/adam-p/markdown-here/master/store-assets/markdown-here-image2.gimp.png)](https://www.swifttechco.com)
+[![screenshot of selection conversion](https://raw.github.com/adam-p/markdown-here/master/store-assets/markdown-here-image2.gimp.png)](https://github.com/Swift-Tech-Co/markdown-here)
 
 #### Things to know about converting/reverting a selection
 
@@ -116,18 +116,15 @@ The *Markdown Here* Options page can be accessed via the Chrome, Firefox, or Thu
 
 For Chrome and Firefox, any changes made in the *Markdown Here* Options are automatically synchronized between your other installations of that browser (if you have the sync feature enabled in the browser).
 
-[![screenshot of options](https://raw.githubusercontent.com/adam-p/markdown-here/master/store-assets/markdown-here-chrome-options-1.gimp.png)](https://www.swifttechco.com)
-
+[![screenshot of options](https://raw.githubusercontent.com/adam-p/markdown-here/master/store-assets/markdown-here-chrome-options-1.gimp.png)](https://github.com/Swift-Tech-Co/markdown-here)
 
 ## Troubleshooting
 
 See the Troubleshooting wiki page.
 
-
 ## Compatibility
 
 See the Compatibility wiki page.
-
 
 ## Notes and Miscellaneous
 
@@ -182,7 +179,7 @@ All bugs, feature requests, pull requests, feedback, etc., are welcome. Create a
 
 ### Code
 
-MIT License: https://www.swifttechco.com or see the `LICENSE` file.
+MIT License: https://github.com/Swift-Tech-Co/markdown-here or see the `LICENSE` file.
 
 ### Logo
 
@@ -194,7 +191,7 @@ Creative Commons Attribution 3.0 Unported (CC BY 3.0) License
 
 ---
 
-[![Dos Equis man says](https://raw.github.com/adam-p/markdown-here/master/store-assets/dos-equis-MDH.jpg)](https://www.swifttechco.com)
+[![Dos Equis man says](https://raw.github.com/adam-p/markdown-here/master/store-assets/dos-equis-MDH.jpg)](https://github.com/Swift-Tech-Co/markdown-here)
 
 ---
 
@@ -210,13 +207,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/markdown-here
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [adam-p/markdown-here](https://github.com/adam-p/markdown-here) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
